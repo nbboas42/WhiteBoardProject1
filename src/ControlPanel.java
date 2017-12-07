@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class ControlPanel extends JFrame
+public class ControlPanel extends JPanel
 {
 
     private JPanel panelHolder;
@@ -20,7 +20,7 @@ public class ControlPanel extends JFrame
     private JTextField textInputField;
     private JComboBox fontComboBox;
 
-    public ControlPanel()
+    public ControlPanel(Controller c)
     {
         // this.add(new Button("hello"));
         // this.setPreferredSize(new Dimension(400, 400));
@@ -29,9 +29,7 @@ public class ControlPanel extends JFrame
         // this.setVisible(true);
 
         this.setSize(600, 300);
-        this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setTitle("Control Panel");
+
 
 
         panelHolder = new JPanel();

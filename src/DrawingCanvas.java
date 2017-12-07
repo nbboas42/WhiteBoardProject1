@@ -13,7 +13,7 @@ public class DrawingCanvas extends JPanel implements MouseListener
    public DrawingCanvas()
    {
        this.add(new Button("hello"));
-       this.setPreferredSize(new Dimension(400, 400));
+       this.setPreferredSize(new Dimension(200, 200));
        this.setBackground(Color.black);
        this.setBorder(BorderFactory.createLineBorder(Color.CYAN));
        this.setVisible(true);

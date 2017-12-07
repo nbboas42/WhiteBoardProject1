@@ -33,7 +33,7 @@ public class DShapeModel {
 
     public Dimension getDimension()
     {
-
+        return new Dimension();
     }
 
     public void setPosition(Point p)
@@ -48,12 +48,12 @@ public class DShapeModel {
 
     public Point getPosition()
     {
-
+        return new Point();
     }
 
     public Color getColor()
     {
-
+        return Color.black;
     }
 
     public void setColor(Color c)
@@ -61,9 +61,9 @@ public class DShapeModel {
 
     }
 
-    public Shape getShape()
+    //public Shape getShape()
     {
-
+        //return new Shape();
     }
 
 

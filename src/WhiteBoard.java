@@ -4,7 +4,7 @@ import java.awt.*;
 public class WhiteBoard extends JFrame
 {
     Controller controller = new Controller();
-    ControlPanel controlpanel = new ControlPanel();
+    ControlPanel controlpanel = new ControlPanel(controller);
     DrawingCanvas drawingcanvas = new DrawingCanvas();
 
     public static void main(String args[])
