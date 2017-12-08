@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-
+/**
 
 public class Window extends JFrame
 {
@@ -107,3 +107,5 @@ class FontComboBox extends JFrame
         c.add(comboBox);
     }
 }
+
+*/
